@@ -19,7 +19,7 @@ class ServantImageCrawler {
         for id in ids {
             let sema = DispatchSemaphore( value: 0 )
             let p = tweakName(id: id) + cardId
-
+            
             if let url = URL(string: "http://fgo-cdn.vgtime.com/media/fgo/servant/card/\(p).png") {
                 print("Begin the request")
                 let task = URLSession.shared.dataTask(with: url) {(data, response, error) in

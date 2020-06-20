@@ -62,5 +62,13 @@ import SwiftSoup
 //   // Do whatever you want with the image
 //}
 
-let crawler = ServantImageCrawler()
-crawler.crawlAllServantImages(ids: [1], cardId: "A")
+//let crawler = ServantImageCrawler()
+//crawler.crawlAllServantImages(ids: [1], cardId: "A")
+
+
+
+let c = MoonCellCrawler()
+if let url = URL(string: "https://fgo.wiki/w/%E9%98%BF%E5%B0%94%E6%89%98%E8%8E%89%E9%9B%85%C2%B7%E6%BD%98%E5%BE%B7%E6%8B%89%E8%B4%A1%E3%80%94Lily%E3%80%95") {
+    c.toRawHTMLString(url: url)
+}
+
