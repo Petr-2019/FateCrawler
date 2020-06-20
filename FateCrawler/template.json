@@ -1,0 +1,82 @@
+{
+    "materials": [{
+        "materialAndCost": [{
+            "materialName": "剑之辉石",
+            "materialCost": "5"
+        }],
+        "qp": "200000",
+        "levelName": "Lv.1→Lv.2"
+    }, {
+        "materialAndCost": [{
+            "materialName": "剑之辉石",
+            "materialCost": "12"
+        }],
+        "qp": "400000",
+        "levelName": "Lv.2→Lv.3"
+    }, {
+        "materialAndCost": [{
+            "materialName": "剑之魔石",
+            "materialCost": "5"
+        }],
+        "qp": "1200000",
+        "levelName": "Lv.3→Lv.4"
+    }, {
+        "materialAndCost": [{
+            "materialName": "剑之魔石",
+            "materialCost": "12"
+        }, {
+            "materialName": "英雄之证",
+            "materialCost": "15"
+        }],
+        "qp": "1600000",
+        "levelName": "Lv.4→Lv.5"
+    }, {
+        "materialAndCost": [{
+            "materialName": "剑之秘石",
+            "materialCost": "5"
+        }, {
+            "materialName": "英雄之证",
+            "materialCost": "29"
+        }],
+        "qp": "4000000",
+        "levelName": "Lv.5→Lv.6"
+    }, {
+        "materialAndCost": [{
+            "materialName": "剑之秘石",
+            "materialCost": "12"
+        }, {
+            "materialName": "龙之牙",
+            "materialCost": "12"
+        }],
+        "qp": "5000000",
+        "levelName": "Lv.6→Lv.7"
+    }, {
+        "materialAndCost": [{
+            "materialName": "龙之牙",
+            "materialCost": "24"
+        }, {
+            "materialName": "混沌之爪",
+            "materialCost": "4"
+        }],
+        "qp": "10000000",
+        "levelName": "Lv.7→Lv.8"
+    }, {
+        "materialAndCost": [{
+            "materialName": "混沌之爪",
+            "materialCost": "11"
+        }, {
+            "materialName": "龙之逆鳞",
+            "materialCost": "10"
+        }],
+        "qp": "12000000",
+        "levelName": "Lv.8→Lv.9"
+    }, {
+        "materialAndCost": [{
+            "materialName": "传承结晶",
+            "materialCost": "1"
+        }],
+        "qp": "20000000",
+        "levelName": "Lv.9→Lv.10"
+    }],
+    "servantName": "阿尔托莉雅·潘德拉贡"
+}
