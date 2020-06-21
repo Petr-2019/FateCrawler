@@ -41,6 +41,8 @@
 		6E59C966244F121000A15295 /* MaterialModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialModel.swift; sourceTree = "<group>"; };
 		6E59C968244F1BD300A15295 /* MaterialAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialAnalyzer.swift; sourceTree = "<group>"; };
 		6EB05C1A249E6458007F3C7D /* MoonCellCrawler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonCellCrawler.swift; sourceTree = "<group>"; };
+		6EB05C1C249EEEB3007F3C7D /* servantImageHosts.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = servantImageHosts.txt; sourceTree = "<group>"; };
+		6EB05C1D249EF7C5007F3C7D /* servantImageLinks.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = servantImageLinks.txt; sourceTree = "<group>"; };
 		6EFD945E24470C98007581DB /* FateCrawler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FateCrawler; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFD946124470C98007581DB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6EFD946A244715CE007581DB /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
@@ -66,6 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				6E0D739E249CBD8A000DE0DB /* templateHTML.html */,
+				6EB05C1C249EEEB3007F3C7D /* servantImageHosts.txt */,
+				6EB05C1D249EF7C5007F3C7D /* servantImageLinks.txt */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
