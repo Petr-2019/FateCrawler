@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct ServantBasicModel {
+struct ServantBasicModel: Codable {
     let id: String
     /// 性别
     let gender: String
@@ -25,7 +25,7 @@ struct ServantBasicModel {
     /// 出处
     let source: String
     /// 属性
-    let attributes: [String]
+    let attribute: String
     /// 特性
     let tokusei: [String]
     /// 昵称
