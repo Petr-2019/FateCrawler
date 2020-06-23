@@ -67,3 +67,24 @@ func readToMem() {
         }
     }
 }
+
+func loadLocalFile<T: Decodable>(_ filename: String) -> T {
+    let data: Data
+
+    do {
+        let fileURL = try FileManager.default
+            .url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+            .appendingPathComponent(filename)
+
+        data = try Data(contentsOf: fileURL)
+    } catch {
+        fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
+    }
+
+    do {
+        let decoder = JSONDecoder()
+        return try decoder.decode(T.self, from: data)
+    } catch {
+        fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
+    }
+}
